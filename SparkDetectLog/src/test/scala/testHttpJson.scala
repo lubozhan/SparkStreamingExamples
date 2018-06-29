@@ -19,7 +19,7 @@ object testHttpJson {
          |}""".stripMargin
 
     println(body)
-    val url = "http://localhost:18080"
+    val url = "http://localhost:4242"
     try {
       val httpClient = new DefaultHttpClient()
       val post = new HttpPost(url)

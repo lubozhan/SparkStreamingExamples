@@ -65,7 +65,7 @@ object logDetect {
          |        "password": "123"
          |}""".stripMargin
 
-    val url = "http://localhost:8088"
+    val url = "http://localhost:4242"
     val httpClient = HttpClients.createDefault()
     val post = new HttpPost(url)
     post.addHeader(HttpHeaders.CONTENT_TYPE, "application/json")
